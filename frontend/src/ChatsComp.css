@@ -1,0 +1,97 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.login-card {
+  max-width: 350px !important;
+}
+
+.login-card {
+  background-color: #ffffff;
+  padding: 20px 25px 30px;
+  margin: 50px auto 25px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+.message-box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.message-box-user {
+  display: flex;
+  justify-content: end;
+
+}
+
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 70%;
+  min-width: 10%;
+}
+
+.date-changed-label-card {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-changed-label-card-card-body {
+  background-color: #2351b5;
+  border: 1px solid #c8c8c8;
+  border-radius: 10px;
+  max-width: 20%
+}
+
+
+.date-changed-label {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+.timestamp {
+  /* Styles for the timestamp at the bottom-right corner */
+  font-size: 12px;
+  color: #000000;
+  margin-right: 5px;
+}
+
+.unSeenMassegeCounter {
+  width: auto;
+  min-width: 40px;
+  height: auto;
+  color: #000000;
+  
+  text-align: center;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.unSeenMassegeCounterText {
+  color: #000000;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}

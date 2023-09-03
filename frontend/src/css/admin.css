@@ -1,0 +1,12 @@
+.user-list-button:hover>.sidebar-dropdown-user-list {
+    display: block;
+    opacity: 1;
+    transition: opacity 1s ease, transform 1s ease;
+
+}
+.sidebar-dropdown-user-list {
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 1s ease, transform 1s ease;
+}
